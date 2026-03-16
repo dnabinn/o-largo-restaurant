@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "O Largo – Static Site",
+      "runtimeExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "runtimeArgs": ["serve.sh"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}
