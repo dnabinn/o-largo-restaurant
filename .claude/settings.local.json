@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:/Users/DNABINN/Desktop/Websites/O Largo/index.html\":*)"
+    ]
+  }
+}
