@@ -82,7 +82,7 @@ document.querySelector('.hero-bg').classList.add('loaded');
 
 // SCROLL REVEAL
 const revealEls = document.querySelectorAll(
-  '#about .about-text, #about .tile-pattern, .info-card, .menu-item'
+  '#about .about-text, #about .tile-pattern, .info-card, .menu-item, .review-card'
 );
 if ('IntersectionObserver' in window) {
   const io = new IntersectionObserver((entries) => {
