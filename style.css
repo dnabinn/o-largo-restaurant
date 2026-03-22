@@ -736,8 +736,6 @@ address { font-style: normal; }
 
 #reviews .section-label { color: var(--gold); }
 #reviews .section-header h2 {
-  font-family: var(--font-serif);
-  font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 400;
   color: #fff;
   margin-bottom: 1.5rem;
@@ -776,19 +774,16 @@ address { font-style: normal; }
   gap: 3px;
 }
 
-.reviews-stars svg,
-.review-stars svg {
+.reviews-stars svg {
   width: 18px;
   height: 18px;
   fill: var(--gold);
-  color: var(--gold);
 }
 
-.reviews-stars .star-half,
-.review-stars .star-half {
-  fill: none;
-  stroke: var(--gold);
-  stroke-width: 1.5;
+.review-stars svg {
+  width: 14px;
+  height: 14px;
+  fill: var(--gold);
 }
 
 .reviews-stars .star-empty,
@@ -845,6 +840,7 @@ address { font-style: normal; }
   gap: 1.5px;
   background: rgba(255,255,255,.06);
   border: 1px solid rgba(255,255,255,.06);
+  overflow: hidden;
   margin-top: 3.5rem;
 }
 
@@ -908,11 +904,6 @@ address { font-style: normal; }
   flex-shrink: 0;
 }
 
-.review-stars svg {
-  width: 14px;
-  height: 14px;
-}
-
 .review-text {
   font-family: var(--font-serif);
   font-size: .98rem;
@@ -945,7 +936,6 @@ address { font-style: normal; }
   color: var(--gold);
   font-size: .8rem;
   padding: .85rem 2rem;
-  transition: background .2s, border-color .2s;
 }
 
 .reviews-cta .btn-dark:hover {
